@@ -1,7 +1,26 @@
 aid: storemaven
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storemaven.png
 name: Storemaven
-description: Storemaven is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Storemaven was an app-store-optimization (ASO) and app-marketing platform founded in Tel Aviv in
+  2015 that pioneered App Store / Google Play A/B testing of icons, screenshots and videos using
+  predictive, machine-learning-driven creative testing to lift install conversion rates for mobile
+  app publishers. It was acquired by Zynga (Take-Two) in September 2022 and folded into the company's
+  growth org, now operating as "mavens, a Zynga company." Storemaven shipped a login-gated SaaS
+  dashboard and published no public developer API, OpenAPI, SDKs, or developer portal; the original
+  storemaven.com domain has since lapsed and been repurposed into an unrelated third-party review
+  site. This profile is retained as an acquired-company lead with no independent API surface.
 url: https://raw.githubusercontent.com/api-evangelist/storemaven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,26 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: zynga
+x-acquired-date: '2022-09-12'
+x-now-operates-as: mavens (a Zynga company)
+x-note: >-
+  No public developer API surface (SaaS dashboard product). Original storemaven.com domain lapsed and
+  now hosts an unrelated review site; domain-security probing would misattribute that host to this
+  company, so it was intentionally skipped. No API artifacts were fabricated.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- App Store Optimization
+- ASO
+- Mobile Marketing
+- A/B Testing
+- User Acquisition
+- Mobile Apps
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,10 @@ maintainers:
 common:
 - type: Website
   url: https://storemaven.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/storemaven
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
