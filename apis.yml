@@ -36,7 +36,7 @@ x-note: >-
   No public developer API surface (SaaS dashboard product). Original storemaven.com domain lapsed and
   now hosts an unrelated review site; domain-security probing would misattribute that host to this
   company, so it was intentionally skipped. No API artifacts were fabricated.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
